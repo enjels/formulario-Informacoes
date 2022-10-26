@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="page">
-      <header>
-        <h1>
-          Crie e compartilhe<br />
-          seu evento.
-        </h1>
-        <p>
-          O primeiro passo, é preencher esse<br />
-          formulário de inscrição.
-        </p>
-      </header>
-      <form>
-        <fieldset>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <h1>
+        Crie e compartilhe<br />
+        seu evento.
+      </h1>
+      <p>
+        O primeiro passo, é preencher esse<br />
+        formulário de inscrição.
+      </p>
+    </header>
+    <form>
+      <fieldset>
+        <div class="fieldset-wrapper">
           <legend>Informações do Evento</legend>
           <div class="input-wrapper">
-            <label for="event-title"
-              >Título do evento <span>(mínimo 8 caracteres)</span></label
-            >
+            <label for="event-title">Título do evento <span>(mínimo 8 caracteres)</span></label>
             <input type="text" id="event-title" />
           </div>
-        </fieldset>
-      </form>
-    </div>
-  </body>
+
+          <div class="input-wrapper">
+            <label for="event-link">Link do evento <span>(comece com https://)</span></label>
+            <input type="text" id="event-link">
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</body>
+
 </html>
