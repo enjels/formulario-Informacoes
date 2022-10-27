@@ -28,7 +28,8 @@
         formulário de inscrição.
       </p>
     </header>
-    <form>
+    <form id="form">
+
       <fieldset>
         <div class="fieldset-wrapper">
           <legend>Informações do Evento</legend>
@@ -71,12 +72,12 @@
 
           <div class="input-wrapper">
             <label for="event-Whatsapp">E-mail do administrador<span>(digite um email válido)</span></label>
-            <input type="email" id="event-email">
+            <input type="email" id="event-email" required>
           </div>
 
           <div class="input-wrapper">
             <label for="event-Whatsapp">Senha de acesso para os participantes<span>(mínimo 8 caracteres)</span></label>
-            <input type="password" id="event-password">
+            <input type="password" id="event-password" required>
           </div>
           <div class="checkbox-wrapper">
             <input type="checkbox" id="event-private">
@@ -86,6 +87,7 @@
         </div>
 
       </fieldset>
+
 
       <fieldset>
         <div class="fieldset-wrapper">
@@ -112,6 +114,9 @@
       </fieldset>
 
     </form>
+    <footer class="form-buttons">
+      <input class="button" type="submit" value="Salvar evento" form="form">
+    </footer>
   </div>
 </body>
 
