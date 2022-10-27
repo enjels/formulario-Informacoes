@@ -74,6 +74,10 @@ fieldset {
 
 }
 
+legend{
+ margin-bottom: 24px;
+}
+
 fieldset legend {
   font-family: "Archivo", sans-serif;
   font-weight: 600;
@@ -99,7 +103,7 @@ fieldset legend {
 
   color: #4e4958;
 
-  margin-bottom: 8px;
+  margin-bottom: px;
 }
 
 .input-wrapper label span{
