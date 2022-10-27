@@ -96,6 +96,11 @@ fieldset legend {
   flex-direction: column;
 }
 
+#event-info{
+  resize: none;
+  padding: 10px;
+}
+
 .input-wrapper label,
 .checkbox-wrapper label{
   font-size: 14px;
@@ -103,7 +108,7 @@ fieldset legend {
 
   color: #4e4958;
 
-  margin-bottom: px;
+  margin-bottom: 0;
 }
 
 .input-wrapper label span{
